@@ -1,0 +1,196 @@
+@media only screen and (min-width: 1024px) {
+    body {
+        border: solid 0px red;
+        width: 100%;
+        height: 100%;
+    }
+
+    body > main {
+        height: 100vh;
+        border: solid 0px brown;
+    }
+
+    body > main > aside:nth-child(1) > h1:nth-child(1){
+        height: 50%;
+        background-color: cadetblue;
+    }
+
+    body > main > aside:nth-child(1) > h1:nth-child(2){
+        height: 50%;
+    }
+
+    body > main > aside:nth-child(3) > h1:nth-child(1){
+        height: 50%;
+        background-color: crimson;
+    }
+
+    body > main > aside:nth-child(3) > h1:nth-child(2){
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    /* TABLET VERTICAL */
+    body {
+        border: solid 0px yellow;
+    }
+
+    body > main {
+        height: 100%;
+    }
+
+    body > main > aside:nth-child(1) {
+        border: solid 0px black;
+        /* background-color: green; */
+        height: 100%;
+    }
+
+    body > main > aside:nth-child(1) > h1:nth-child(1){
+        height: 50%;
+        background-color: cadetblue;
+    }
+
+    body > main > aside:nth-child(1) > h1:nth-child(2){
+        height: 50%;
+    }
+
+    body > main > section {
+        border: solid 0px red;
+        height: 100%;
+    }
+
+    body > main > section > article {
+        border: solid 0px grey;
+    }
+
+    body > main > section > article > div {
+        /* background-color: greenyellow; */
+        border: solid 0px black;
+    }
+
+    body > main > aside:nth-child(3) {
+        height: 100%;
+    }
+
+    body > main > aside:nth-child(3) > h1:nth-child(1){
+        height: 50%;
+        background-color: crimson;
+    }
+
+    body > main > aside:nth-child(3) > h1:nth-child(2){
+        height: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    /* CELULAR SAMSUNG A3 */
+    body {
+        border: solid 0px green;
+    }
+
+    header {
+        display: block!important;
+        width: 100%;
+        height: 140px;
+        background-color: grey;
+        /* display: flex; */
+        /* border: solid 2px white; */
+    }
+    
+    header > div:nth-child(1)  {
+        display: block!important;
+        width: 100%!important;
+        border: solid 0px white;
+        height: 25%;
+        font-size: 15px;
+    }
+
+    body > header > div:nth-child(2) {
+        display: flex!important;
+        justify-content: space-around;
+        height: 50%;
+        border: solid 0px red;
+    }
+
+    body > header > div:nth-child(2) > navbar > a  {
+        border: solid 0px black;
+        font-size: 13px;
+        display: flex;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        font-size: 15px!important;
+        border: solid 6px salmon!important;
+    }
+    
+    header > :nth-child(2) {
+        /* border: solid 2px blue; */
+        width: 100%;
+        height: 100%;
+        display: block;
+        /* justify-content: space-around; */
+        align-items: center;
+    }
+    
+    body > main {
+        height: 100%;
+    }
+
+    body > main > aside:nth-child(1) {
+        display: none;
+    }
+
+    body > main > aside:nth-child(3) {
+        display: none;
+    }
+
+    body > main > section > article > div > div:nth-child(3) {
+        border: solid 0px red;
+    }
+
+    section > article > div > img {
+        width: 250px;
+        height: 250px;
+    }
+
+    footer > div:nth-child(1) {
+        width: 100%;
+        height: 40%;
+        /* border: solid 2px blue; */
+        display: flex;
+        justify-content: center;
+    }
+
+    footer > div > div:nth-child(1) {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* border: solid 2px black; */
+        /* background-color: blue; */
+    }
+
+    footer > div:nth-child(2) {
+        width: 100%;
+        height: 60%;
+        text-align: center;
+        /* border: solid 2px violet; */
+    }
+    
+    footer > div:nth-child(2) > div {
+        width: 100%;
+        height: 100%;
+        display: block;
+        align-content: center;
+        /* border: solid 4px green; */
+    }
+    
+    p {
+        font-weight: bolder;
+    }
+}

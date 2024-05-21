@@ -7,38 +7,60 @@
     <title>Trabajo Practico</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./estilo.css">
-    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/estilo.css">
     <script src="https://kit.fontawesome.com/d1d551f09c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <div>
-            <a href="./index.html"><img src="icons8-star-16.png" alt="iconito de ejemplo o logo"></a>
+            <a href="./index.html"><img src="./icons8-star-16.png" alt="iconito de ejemplo o logo" style="display: none;"></a>
+            <navbar style="display: none;"><a href="./index.html">Home</a></navbar>
         </div>
         <div>
-            <navbar><a href="./yo.html">YO</a></navbar>
-            <navbar><a href="./ubicacion.html">Donde estoy</a></navbar>
-            <navbar><a href="./acerca.html">Acerca de mi...</a></navbar>
-            <navbar><a href="./contacto.html">Contactame</a></navbar>
-            <navbar><a href="#">Donde estamos</a></navbar>
+            <navbar><a href="./pages/yo.html">Yo</a></navbar>
+            <navbar><a href="./pages/ubicacion.html">Donde estoy</a></navbar>
+            <navbar><a href="./pages/acerca.html">Acerca de mi...</a></navbar>
+            <navbar><a href="./pages/contacto.html">Contacto</a></navbar>
+            <navbar><a href="./pages/local.html">Visitanos</a></navbar>
         </div>
     </header>
 
-    <section>
-        <article>
-            <h1>BIENVENIDOS A MI SITIO WEB</h1>
-            <div>
-                <img src="./Foto2_circle.png" alt="Mr.Diablo" width="350px" height="350px">
-            </div>
-        </article>
-    </section>
+    <main>
+        <aside>
+            <h1>LADO IZQUIERDO 2</h1>
+            <h1>LADO IZQUIERDO 1</h1>
+        </aside>
+        <section>
+            <article>
+                <h1>BIENVENIDOS A MI SITIO WEB</h1>
+                <div>
+                    <img src="./assets/Foto.png" alt="Mr.Diablo" width="350px" height="350px">
+                    <div id="animacion">
+                        <h2>Soy Leandro Vega</h2>
+                    </div>
+                    <div style="position: relative;height: 50px;width: 100%;">
+                        <div id="movimiento">
+                            <h2>BIENVENIDOS A LEVSISTEMAS</h2>
+                        </div>
+                    </div>
+                    <div id="transformacion">
+                        <h2>SEAN MAS QUE BIENVENIDOS</h2>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <aside>    
+            <h1>LADO DERECHO 3</h1>
+            <h1>LADO DERECHO 4</h1>
+        </aside>
+    </main>
 
     <footer>
         <div>
             <div>
-                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-whatsapp"><a href="https://whatsapp.com" target="_blank"></a></i>
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-instagram"></i>
@@ -53,7 +75,8 @@
             </div>
         </div>
     </footer>
-    <script src="./leandro.js"></script>
+    <script src="./js/leandro.js"></script>
+    <script src="./js/animaciones.js"></script>
 </body>
 
 </html>
